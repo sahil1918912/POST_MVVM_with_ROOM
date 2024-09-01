@@ -49,6 +49,19 @@ body
   "EvaluationType": ""
     }
 
+data class RequestModel (
+    val InstructorId : String,
+    val LocationId : String,
+    val Year : String,
+    val StudentPayType : String,
+    val StudentPaymentType : String,
+    val StudentType : String,
+    val SearchType : String,
+    val SearchTitle : String,
+    val SPageNo : String,
+    val EvaluationType : String,
+)
+
 
 
 ![logo_image](https://github.com/user-attachments/assets/cff41f99-0e56-4cf3-8d16-6b823c3a7d69)
