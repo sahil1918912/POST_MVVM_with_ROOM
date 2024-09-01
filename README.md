@@ -62,6 +62,19 @@ data class RequestModel (
     val EvaluationType : String,
 )
 
+val body = RequestModel(
+        "1477",
+        "1",
+        "2024",
+        "ALL",
+        "",
+        "",
+        "",
+        "",
+        "1",
+        ""
+    )
+
 
 
 ![logo_image](https://github.com/user-attachments/assets/cff41f99-0e56-4cf3-8d16-6b823c3a7d69)
